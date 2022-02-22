@@ -15,7 +15,7 @@ With further updates - This project is designed and developed with the help of -
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-Updations and Implementations done:
+Implementations done:
 ------------------------------------------------------------
 1. Parallel testing (Multiple devices - Android and iOS) (Real devices and Emulator/Simulator)
 2. Application used: https://github.com/saucelabs/sample-app-mobile/releases (V2.7.1)
