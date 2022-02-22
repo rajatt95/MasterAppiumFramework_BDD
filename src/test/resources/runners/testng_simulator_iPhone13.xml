@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite_Simulator_iPhone_13">
+	<test name="Tests_on_Simulator_iPhone_13">
+		<parameter name="platformName" value="iOS"></parameter>
+		<parameter name="udid" value="18FB4726-3A15-498D-8F7E-84965AB706EF"></parameter>
+		<parameter name="deviceName" value="iPhone_13"></parameter>
+		<parameter name="wdaLocalPort" value="10051" />
+		<parameter name="webkitDebugProxyPort" value="11052" />
+		<classes>
+			<class name="com.appium.runners.TestNGRunner_iPhone13" />
+		</classes>
+	</test>
+</suite> 

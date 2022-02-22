@@ -1,0 +1,125 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.learning</groupId>
+	<artifactId>MasterAppiumFramework_BDD_TestNG</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<cucumber-version>7.0.0</cucumber-version>
+		<!-- DEFAULT - If you do not pass any value with mvn test, then, this value (testng_simulator_iPhone13.xml)
+			will be used -->
+		<!--<suiteFile>testng.xml</suiteFile>-->
+		<suiteFile>testng_simulator_iPhone13</suiteFile>
+
+	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>8</source>
+					<target>8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M5</version>
+				<configuration>
+					<!-- Suite testng xml file to consider for test execution -->
+					<suiteXmlFiles>
+						<!-- <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile> -->
+						<!-- <suiteXmlFile>testng.xml</suiteXmlFile> -->
+						<!--<suiteXmlFile>${suiteFile}</suiteXmlFile>-->
+						<suiteXmlFile>src/test/resources/runners/${suiteFile}.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+
+
+		</plugins>
+	</build>
+
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<!-- <version>7.0.0</version> -->
+			<version>${cucumber-version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+		<!-- <dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>${cucumber-version}</version>
+			<scope>test</scope>
+		</dependency>-->
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>${cucumber-version}</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>7.5.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<!-- <version>20190722</version> -->
+			<!--<version>20210307</version>-->
+			<version>20211205</version>
+
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.14.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.14.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.15</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/de.monochromata.cucumber/reporting-plugin -->
+		<!-- <dependency> <groupId>de.monochromata.cucumber</groupId> <artifactId>reporting-plugin</artifactId> 
+			<version>4.0.101</version> <version>5.0.0</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/me.jvt.cucumber/reporting-plugin -->
+		<dependency>
+			<groupId>me.jvt.cucumber</groupId>
+			<artifactId>reporting-plugin</artifactId>
+			<version>${cucumber-version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<!-- <dependency> <groupId>io.cucumber</groupId> <artifactId>cucumber-testng</artifactId> 
+			<version>${cucumber-version}</version> </dependency> -->
+
+
+	</dependencies>
+</project>

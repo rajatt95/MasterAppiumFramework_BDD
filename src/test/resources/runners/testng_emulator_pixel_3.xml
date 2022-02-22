@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite_Emulator_Pixel_3">
+	<test name="Tests_on_Emulator_Pixel_3">
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="emulator-5554" />
+		<parameter name="deviceName" value="Pixel_3" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="11000" />
+		<classes>
+			<class name="com.appium.runners.TestNGRunner_Pixel3" />
+		</classes>
+	</test>
+</suite> 
