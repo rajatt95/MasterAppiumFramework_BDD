@@ -1,5 +1,5 @@
 # MasterAppiumFramework_BDD
-With further updates - This project is designed and developed with the help of -
+This project is designed and developed with the help of -
 1. Udemy course (OmPrakash Chavan - Appium Mobile Automation - Android &amp; iOS + Frameworks + CICD)
 ------------------------------------------------------------
 [Appium setup on Windows.pdf](https://github.com/rajatt95/MasterAppiumFramework/files/7458111/Appium.setup.on.Windows.pdf)
