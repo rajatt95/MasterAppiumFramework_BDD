@@ -9,7 +9,8 @@
 		<!-- DEFAULT - If you do not pass any value with mvn test, then, this value (testng_simulator_iPhone13.xml)
 			will be used -->
 		<!--<suiteFile>testng.xml</suiteFile>-->
-		<suiteFile>testng_simulator_iPhone13</suiteFile>
+<!--		<suiteFile>testng_simulator_iPhone13</suiteFile>-->
+		<suiteFile>testng_pixel_3_iPhone13</suiteFile>
 
 	</properties>
 	<build>
@@ -37,8 +38,6 @@
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
-
-
 		</plugins>
 	</build>
 
@@ -119,7 +118,5 @@
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
 		<!-- <dependency> <groupId>io.cucumber</groupId> <artifactId>cucumber-testng</artifactId> 
 			<version>${cucumber-version}</version> </dependency> -->
-
-
 	</dependencies>
 </project>
