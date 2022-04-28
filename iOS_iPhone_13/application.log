@@ -1,22 +1,42 @@
-[iOS_iPhone_13 INFO ] 2022-02-22 21:15:47.791 ServerManager:30 - starting appium server
-[iOS_iPhone_13 INFO ] 2022-02-22 21:15:48.951 ServerManager:46 - Appium server started
-[iOS_iPhone_13 INFO ] 2022-02-22 21:15:48.980 DriverManager:30 - initializing Appium driver
-[iOS_iPhone_13 INFO ] 2022-02-22 21:15:48.995 PropertyManager:19 - loading config properties
-[iOS_iPhone_13 INFO ] 2022-02-22 21:15:48.997 CapabilitiesManager:20 - getting capabilities
-[iOS_iPhone_13 INFO ] 2022-02-22 21:15:49.000 CapabilitiesManager:50 - appUrl is/Users/rajatverma/Library/CloudStorage/OneDrive-Personal/Email_95_Data/OneDrive_Eclipse_WS/LearningWS/Final_Code/MasterAppiumFramework_BDD_TestNG/src/test/resources/app/SwagLabsMobileApp.app
-[iOS_iPhone_13 INFO ] 2022-02-22 21:17:49.664 DriverManager:42 - Driver is initialized
-[iOS_iPhone_13 INFO ] 2022-02-22 21:17:52.807 BasePage:78 - login with invalidUsername
-[iOS_iPhone_13 INFO ] 2022-02-22 21:17:56.073 BasePage:78 - password is secret_sauce
-[iOS_iPhone_13 INFO ] 2022-02-22 21:17:57.675 BasePage:61 - press login button
-[iOS_iPhone_13 INFO ] 2022-02-22 21:18:00.850 BasePage:104 - error text is - Username and password do not match any user in this service.
-[iOS_iPhone_13 INFO ] 2022-02-22 21:18:01.828 VideoManager:37 - video path: iOS_iPhone_13/Videos/Login with invalid user name.mp4
-[iOS_iPhone_13 INFO ] 2022-02-22 21:18:05.076 BasePage:78 - login with standard_user
-[iOS_iPhone_13 INFO ] 2022-02-22 21:18:07.106 BasePage:78 - password is invalidPassword
-[iOS_iPhone_13 INFO ] 2022-02-22 21:18:07.815 BasePage:61 - press login button
-[iOS_iPhone_13 INFO ] 2022-02-22 21:18:09.121 BasePage:104 - error text is - Username and password do not match any user in this service.
-[iOS_iPhone_13 INFO ] 2022-02-22 21:18:09.762 VideoManager:37 - video path: iOS_iPhone_13/Videos/Login with invalid password.mp4
-[iOS_iPhone_13 INFO ] 2022-02-22 21:18:11.553 BasePage:78 - login with standard_user
-[iOS_iPhone_13 INFO ] 2022-02-22 21:18:13.695 BasePage:78 - password is secret_sauce
-[iOS_iPhone_13 INFO ] 2022-02-22 21:18:14.410 BasePage:61 - press login button
-[iOS_iPhone_13 INFO ] 2022-02-22 21:18:17.281 BasePage:104 - product page title is - PRODUCTS
-[iOS_iPhone_13 INFO ] 2022-02-22 21:18:17.970 VideoManager:37 - video path: iOS_iPhone_13/Videos/Login with valid user name and password.mp4
+[iOS_iPhone_13 INFO ] 2022-03-31 17:48:26.538 ServerManager:30 - starting appium server
+[iOS_iPhone_13 INFO ] 2022-03-31 17:48:27.298 ServerManager:46 - Appium server started
+[iOS_iPhone_13 INFO ] 2022-03-31 17:48:27.304 DriverManager:30 - initializing Appium driver
+[iOS_iPhone_13 INFO ] 2022-03-31 17:48:27.306 CapabilitiesManager:20 - getting capabilities
+[iOS_iPhone_13 INFO ] 2022-03-31 17:48:27.307 CapabilitiesManager:50 - appUrl is/Users/rajatverma/Library/CloudStorage/OneDrive-Personal/Email_95_Data/OneDrive_Eclipse_WS/LearningWS/Final_Code/MasterAppiumFramework_BDD_TestNG/src/test/resources/app/SwagLabsMobileApp.app
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:27.639 DriverManager:42 - Driver is initialized
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:30.280 BasePage:78 - login with invalidUsername
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:33.546 BasePage:78 - password is secret_sauce
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:34.629 BasePage:61 - press login button
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:36.493 BasePage:104 - error text is - Username and password do not match any user in this service.
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:37.265 VideoManager:37 - video path: iOS_iPhone_13/Videos/Login with invalid user name.mp4
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:40.522 BasePage:78 - login with standard_user
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:43.923 BasePage:78 - password is invalidPassword
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:45.250 BasePage:61 - press login button
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:47.446 BasePage:104 - error text is - Username and password do not match any user in this service.
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:48.332 VideoManager:37 - video path: iOS_iPhone_13/Videos/Login with invalid password.mp4
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:50.397 BasePage:78 - login with standard_user
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:52.717 BasePage:78 - password is secret_sauce
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:53.479 BasePage:61 - press login button
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:56.841 BasePage:104 - product page title is - PRODUCTS
+[iOS_iPhone_13 INFO ] 2022-03-31 17:50:57.691 VideoManager:37 - video path: iOS_iPhone_13/Videos/Login with valid user name and password.mp4
+[iOS_iPhone_13 INFO ] 2022-03-31 17:53:11.133 ServerManager:46 - Appium server started
+[iOS_iPhone_13 INFO ] 2022-03-31 17:53:11.182 DriverManager:30 - initializing Appium driver
+[iOS_iPhone_13 INFO ] 2022-03-31 17:53:11.205 PropertyManager:19 - loading config properties
+[iOS_iPhone_13 INFO ] 2022-03-31 17:53:11.214 CapabilitiesManager:20 - getting capabilities
+[iOS_iPhone_13 INFO ] 2022-03-31 17:53:11.224 CapabilitiesManager:50 - appUrl is/Users/rajatverma/Library/CloudStorage/OneDrive-Personal/Email_95_Data/OneDrive_Eclipse_WS/LearningWS/Final_Code/MasterAppiumFramework_BDD_TestNG/src/test/resources/app/SwagLabsMobileApp.app
+[iOS_iPhone_13 INFO ] 2022-03-31 17:53:34.718 DriverManager:42 - Driver is initialized
+[iOS_iPhone_13 INFO ] 2022-03-31 17:53:47.953 BasePage:78 - login with invalidUsername
+[iOS_iPhone_13 INFO ] 2022-03-31 17:53:56.640 BasePage:78 - password is secret_sauce
+[iOS_iPhone_13 INFO ] 2022-03-31 17:53:59.553 BasePage:61 - press login button
+[iOS_iPhone_13 INFO ] 2022-03-31 17:54:04.643 BasePage:104 - error text is - Username and password do not match any user in this service.
+[iOS_iPhone_13 INFO ] 2022-03-31 17:54:09.483 VideoManager:37 - video path: iOS_iPhone_13/Videos/Login with invalid user name.mp4
+[iOS_iPhone_13 INFO ] 2022-03-31 17:54:19.808 BasePage:78 - login with standard_user
+[iOS_iPhone_13 INFO ] 2022-03-31 17:54:24.427 BasePage:78 - password is invalidPassword
+[iOS_iPhone_13 INFO ] 2022-03-31 17:54:25.815 BasePage:61 - press login button
+[iOS_iPhone_13 INFO ] 2022-03-31 17:54:30.223 BasePage:104 - error text is - Username and password do not match any user in this service.
+[iOS_iPhone_13 INFO ] 2022-03-31 17:54:53.729 VideoManager:37 - video path: iOS_iPhone_13/Videos/Login with invalid password.mp4
+[iOS_iPhone_13 INFO ] 2022-03-31 17:55:12.658 BasePage:78 - login with standard_user
+[iOS_iPhone_13 INFO ] 2022-03-31 17:55:22.539 BasePage:78 - password is secret_sauce
+[iOS_iPhone_13 INFO ] 2022-03-31 17:55:23.839 BasePage:61 - press login button
+[iOS_iPhone_13 INFO ] 2022-03-31 17:55:42.580 BasePage:104 - product page title is - PRODUCTS
+[iOS_iPhone_13 INFO ] 2022-03-31 17:55:54.082 VideoManager:37 - video path: iOS_iPhone_13/Videos/Login with valid user name and password.mp4

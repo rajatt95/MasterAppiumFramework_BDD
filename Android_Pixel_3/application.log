@@ -1,21 +1,40 @@
-[Android_Pixel_3 INFO ] 2022-01-24 02:28:15.290 ServerManager:27 - starting appium server
-[Android_Pixel_3 INFO ] 2022-01-24 02:28:15.991 ServerManager:43 - Appium server started
-[Android_Pixel_3 INFO ] 2022-01-24 02:28:16.016 DriverManager:28 - initializing Appium driver
-[Android_Pixel_3 INFO ] 2022-01-24 02:28:16.026 PropertyManager:17 - loading config properties
-[Android_Pixel_3 INFO ] 2022-01-24 02:28:16.028 CapabilitiesManager:18 - getting capabilities
-[Android_Pixel_3 INFO ] 2022-01-24 02:28:16.029 CapabilitiesManager:36 - appUrl is/Users/rajatverma/OneDrive/Email_95_Data/OneDrive_Eclipse_WS/LearningWS/Final_Code/MasterAppiumFramework_BDD_TestNG/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
-[Android_Pixel_3 INFO ] 2022-01-24 02:28:57.649 DriverManager:40 - Driver is initialized
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:05.741 BasePage:78 - login with invalidUsername
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:08.421 BasePage:78 - password is secret_sauce
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:09.865 BasePage:61 - press login button
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:14.580 BasePage:104 - error text is - Username and password do not match any user in this service.
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:24.687 VideoManager:35 - video path: Android_Pixel_3/Videos/Login with invalid user name.mp4
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:28.626 BasePage:78 - login with standard_user
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:30.919 BasePage:78 - password is invalidPassword
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:32.190 BasePage:61 - press login button
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:33.709 BasePage:104 - error text is - Username and password do not match any user in this service.
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:36.514 VideoManager:35 - video path: Android_Pixel_3/Videos/Login with invalid password.mp4
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:38.772 BasePage:78 - login with standard_user
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:42.733 BasePage:78 - password is secret_sauce
-[Android_Pixel_3 INFO ] 2022-01-24 02:29:45.633 BasePage:61 - press login button
-[Android_Pixel_3 INFO ] 2022-01-24 02:30:04.836 VideoManager:35 - video path: Android_Pixel_3/Videos/Login with valid user name and password.mp4
+[Android_Pixel_3 INFO ] 2022-03-31 17:48:26.917 ServerManager:46 - Appium server started
+[Android_Pixel_3 INFO ] 2022-03-31 17:48:26.965 DriverManager:30 - initializing Appium driver
+[Android_Pixel_3 INFO ] 2022-03-31 17:48:27.016 PropertyManager:19 - loading config properties
+[Android_Pixel_3 INFO ] 2022-03-31 17:48:27.021 CapabilitiesManager:20 - getting capabilities
+[Android_Pixel_3 INFO ] 2022-03-31 17:48:27.026 CapabilitiesManager:38 - appUrl is/Users/rajatverma/Library/CloudStorage/OneDrive-Personal/Email_95_Data/OneDrive_Eclipse_WS/LearningWS/Final_Code/MasterAppiumFramework_BDD_TestNG/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[Android_Pixel_3 INFO ] 2022-03-31 17:48:59.405 DriverManager:42 - Driver is initialized
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:30.567 BasePage:78 - login with invalidUsername
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:32.062 BasePage:78 - password is secret_sauce
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:32.744 BasePage:61 - press login button
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:34.276 BasePage:104 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:35.506 VideoManager:37 - video path: Android_Pixel_3/Videos/Login with invalid user name.mp4
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:37.362 BasePage:78 - login with standard_user
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:38.935 BasePage:78 - password is invalidPassword
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:40.113 BasePage:61 - press login button
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:42.196 BasePage:104 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:45.294 VideoManager:37 - video path: Android_Pixel_3/Videos/Login with invalid password.mp4
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:47.506 BasePage:78 - login with standard_user
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:49.694 BasePage:78 - password is secret_sauce
+[Android_Pixel_3 INFO ] 2022-03-31 17:49:50.802 BasePage:61 - press login button
+[Android_Pixel_3 INFO ] 2022-03-31 17:50:05.649 VideoManager:37 - video path: Android_Pixel_3/Videos/Login with valid user name and password.mp4
+[Android_Pixel_3 INFO ] 2022-03-31 17:53:11.131 ServerManager:46 - Appium server started
+[Android_Pixel_3 INFO ] 2022-03-31 17:53:11.182 DriverManager:30 - initializing Appium driver
+[Android_Pixel_3 INFO ] 2022-03-31 17:53:11.205 PropertyManager:19 - loading config properties
+[Android_Pixel_3 INFO ] 2022-03-31 17:53:11.214 CapabilitiesManager:20 - getting capabilities
+[Android_Pixel_3 INFO ] 2022-03-31 17:53:11.224 CapabilitiesManager:38 - appUrl is/Users/rajatverma/Library/CloudStorage/OneDrive-Personal/Email_95_Data/OneDrive_Eclipse_WS/LearningWS/Final_Code/MasterAppiumFramework_BDD_TestNG/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[Android_Pixel_3 INFO ] 2022-03-31 17:53:43.955 DriverManager:42 - Driver is initialized
+[Android_Pixel_3 INFO ] 2022-03-31 17:53:47.838 BasePage:78 - login with invalidUsername
+[Android_Pixel_3 INFO ] 2022-03-31 17:53:49.884 BasePage:78 - password is secret_sauce
+[Android_Pixel_3 INFO ] 2022-03-31 17:53:51.200 BasePage:61 - press login button
+[Android_Pixel_3 INFO ] 2022-03-31 17:53:59.821 BasePage:104 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_3 INFO ] 2022-03-31 17:54:05.429 VideoManager:37 - video path: Android_Pixel_3/Videos/Login with invalid user name.mp4
+[Android_Pixel_3 INFO ] 2022-03-31 17:54:08.901 BasePage:78 - login with standard_user
+[Android_Pixel_3 INFO ] 2022-03-31 17:54:13.362 BasePage:78 - password is invalidPassword
+[Android_Pixel_3 INFO ] 2022-03-31 17:54:15.832 BasePage:61 - press login button
+[Android_Pixel_3 INFO ] 2022-03-31 17:54:21.234 BasePage:104 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_3 INFO ] 2022-03-31 17:54:25.318 VideoManager:37 - video path: Android_Pixel_3/Videos/Login with invalid password.mp4
+[Android_Pixel_3 INFO ] 2022-03-31 17:54:37.910 BasePage:78 - login with standard_user
+[Android_Pixel_3 INFO ] 2022-03-31 17:54:43.286 BasePage:78 - password is secret_sauce
+[Android_Pixel_3 INFO ] 2022-03-31 17:54:48.068 BasePage:61 - press login button
+[Android_Pixel_3 INFO ] 2022-03-31 17:55:26.550 VideoManager:37 - video path: Android_Pixel_3/Videos/Login with valid user name and password.mp4
